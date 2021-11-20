@@ -17,3 +17,10 @@ http_archive(
   strip_prefix = "rules_cc-262ebec3c2296296526740db4aefce68c80de7fa",
 )
 
+# https://github.com/google/googletest
+http_archive(
+  name = "com_google_googletest",
+  urls = ["https://github.com/google/googletest/archive/011959aafddcd30611003de96cfd8d7a7685c700.zip"],
+  strip_prefix = "googletest-011959aafddcd30611003de96cfd8d7a7685c700",
+)
+
